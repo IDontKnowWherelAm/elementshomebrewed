@@ -1,0 +1,484 @@
+<elements>
+<info>
+<name>Umamusume</name>
+<description/>
+<author url="https://www.scribd.com/document/894769360/wwkn59">SCIBD</author>
+<update version="0.2.7">
+<file name="race-usamusume.xml" url="https://www.scribd.com/document/894769360/wwkn59"/>
+</update>
+</info>
+<element name="Umamusume" type="Race" source="Homebrewed" id="ID_RACE_UMAMUSUME">
+<description>
+<p class="flavor">
+They are born to run. They inherit names from another world, entwined with histories both tragic and sparkling, and with these souls, they race on. That is their fate. No one knows yet what results the races in their futures hold. They simply continue to run, simply aiming for the goal before them.
+</p>
+<h4>GENERAL OVERVIEW</h4>
+<p>
+Blessed with strength and stamina far greater than any human, Umamusume are natural athletes. Born with an urge to run, many of them dedicate their lives to racing, which has become a popular sport in their world. While not every Umamusume may follow this path, many of the most famous celebrities are runners. These stars often grace magazine covers, television shows and many other facets of popular culture. While they may have many motivations for running, and may compete or cooperate, all of them share an unshakeable thirst for victory, a determination that drives them forever towards the goal, however far it may be.
+</p>
+<h4>BLESSED BY ANOTHER WORLD</h4>
+<p>
+Even in their own world, there are many mysteries surrounding Umamusume. Despite being of the same size and similar appearance as humans, they are many times stronger and possess incredible constitutions. They are characterized by their unique ears and tails, giving them a distinct and gallant appearance as they run. Their appearance and abilities have greatly contributed to their fame and beloved status all the world over.
+</p>
+<h4>STARS ON THE TRACK AND THE STAGE</h4>
+<p>
+One of the most popular sports in their world, Umamusume racing is beloved by fans of all ages. Unlike horse racing in other worlds, there is no gambling element - fans simply watch it like other sports, for the love of their favorite athletes. The runners are the highlight both on and off the course, wearing flashy show outfits as they run, then performing in live concerts in the evening after where the winners take central stage. Being a popular racer means not just achieving results in races, but graceful performance on stage. Not surprisingly, it follows that many have large followings of fans and can reach full celebrity status  with success.
+</p>
+<p class="indent">
+Despite their amazing status in their world, most active athletes on the Umamusume racing circuits are students, attending special racing schools where they receive both a general education as well as special education pertaining to their racing careers. Of course, the main focus of these racing schools is the physical training that fills much of their schedule. Trainers function as personalized teachers for either individual Umamusume or teams that train together in preparation for their races. Effective trainers help to manage both their daily schedules to maximize their strengths and abilities, while also planning long term milestones to guide them to their racing goals, whatever those might be.
+</p>
+<p class="indent">
+One of the things that makes Umamusume shine most though are their fellow Umamusume. Be it cheering each other on, or through fierce competition as rivals, the only ones who can stand on the same track as them are their fellow Umamusume, so their truest inspiration and reason to run often come from each other. These bonds and rivalries often go on to become as legendary as the races themselves.
+</p>
+<h4>JUST A SHADE DIFFERENT (UMAMUSUME CHARACTERISTICS)</h4>
+<p>
+In many ways, Umamusume look identical to humans from an outwards perspective. However, they are easily spotted by a number of physical differences. The first and most obvious 
+of these of course is their ears. Possessing horse-like ears on the tops of their heads with a wide range of mobility, they immediately make them identifiable at a glance and are often very involved in expressing a girl's emotions. Similarly, their tails are also quite expressive, to the point of sometimes even standing on end when surprised. Tails and ears are as prone to decoration and fashion as hair is for humans, leading to a number of fashions unique to Umamusume.
+</p>
+<p class="indent">
+Both of these generally match the color of their hair, which can come in various shades. Besides including the full range of shades common in humans, it is not uncommon for Umamusume to have silver or gray hair regardless of their age, and in some cases even pure white. As well, inexplicable shades of blue and pink as well as other colors have even been seen, apparently generated naturally. Most notably, it is not at all uncommon for Umamusume to have hair with mixed colors, often streaks of silver or white, or sometimes even unique patterns in how it grows.
+</p>
+<p class="indent">
+Another point of unique appearance is their eyes. Beyond just coming in a variety of colors, including shades of lilac, pink and brilliant blue, some are known to have unique patterns on their irises, thought to be  mark of their otherworldly origins.
+</p>
+<p class="indent">
+Despite their superhuman strength, these cosmetic appearances are the only noticeable differences at an outside glance. Even with their enormous strength, they somehow retain almost idealized forms that hide their athletic prowess.
+</p>
+<h4>UMAMUSUME NAMING TENDENCIES</h4>
+<p>
+Many Umamusume, particularly those famed on the racing circuit, also bear unique names that are said to be come from another world. It is thought that these names may be entwined with their destinies, shaping their racing careers and abilities - but in the end, no one can really say for sure what lies for them at the end of the racetrack. Whatever the truth of the matter may be, the result is that many of these girls bear unique and unusual names.
+</p>
+<p class="indent">
+Umamusume are said to inherit their names from another world, so it is hard to say what the logic behind them is. They are often quite unique and standout though, frequently containing words from a mixture of languages as well as completely new words as well.
+</p>
+<h4>UMAMUSUME GENDER</h4>
+<p>
+For some reason, only horse girls are ever born, with no known horse boys.
+</p>
+<h4>UMAMUSUME TRAITS</h4>
+<p>
+<span class="feature">Ability Score Increase.</span>
+Your Constitution score increases by 1.
+<br/>
+<span class="feature">Age.</span>
+Umamusume have similar lifespans to Humans and reach maturity at the same age.
+<br/>
+<span class="feature">Alignment.</span>
+Umamusume have no inherent preference towards lawfulness or chaos, as long as they can run. In general, they are not evil.
+<br/>
+<span class="feature">Size.</span>
+Umamusume vary widely in height and build, similar to humans, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.
+<br/>
+<span class="feature">Speed.</span>
+Your base walking speed is 40 feet.
+<br/>
+<span class="feature">Powerful Build.</span>
+You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+<br/>
+<span class="feature">Ground Specialty.</span>
+You have a preference for running on turf or dirt. Choose one.
+<br/>
+<span class="feature">Turf:</span> Your preference for running on turf gives you superior maneuverability around opponents. Your movement speed increases by +10 feet when you take the Disengage action.
+<br/>
+<span class="feature">Dirt:</span> Your preference for running on dirt gives superior handling on unstable footing. You can ignore difficult terrain when you take the Dash action.
+<br/>
+<span class="feature">Languages.</span>
+You can speak, read, and write Common and one extra language of your choice.
+<br/>
+</p>
+<element id="ID_UMAMUSUME_GROUND_SPECIALTY"/>
+<element id="ID_UMAMUSUME_STRATEGY_RUNNER"/>
+<element id="ID_UMAMUSUME_STRATEGY_LEADER"/>
+<element id="ID_UMAMUSUME_STRATEGY_BETWEENER"/>
+<element id="ID_UMAMUSUME_STRATEGY_CHASER"/>
+
+    </description>
+
+    <sheet display="false"/>
+
+    <setters>
+        <set name="height" modifier="2d10">4'8"</set>
+        <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+
+    <rules>
+        <stat name="constitution" value="1"/>
+
+        <grant type="Size" id="ID_SIZE_MEDIUM"/>
+
+        <stat name="innate speed" value="40" bonus="base"/>
+
+        <grant type="Language" id="ID_LANGUAGE_COMMON"/>
+
+        <select
+            type="Language"
+            name="Language (Umamusume)"
+            supports="Standard||Exotic"/>
+
+        <select
+            type="Racial Trait"
+            name="Ground Specialty"
+            supports="Umamusume Ground Specialty"/>
+
+        <select
+            type="Racial Trait"
+            name="Strategy"
+            supports="Umamusume Strategy"/>
+    </rules>
+</element>
+
+
+<element name="Turf" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_GROUND_SPECIALTY_TURF">
+    <supports>Umamusume Ground Specialty</supports>
+
+    <description>
+        <p>
+            Your preference for running on turf gives you superior maneuverability around opponents.
+            Your movement speed increases by +10 feet when you take the Disengage action.
+        </p>
+    </description>
+
+    <sheet>
+        <description>Your preference for running on turf gives you superior maneuverability around opponents. Your movement speed increases by +10 feet when you take the Disengage action.</description>
+    </sheet>
+</element>
+
+<element name="Dirt" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_GROUND_SPECIALTY_DIRT">
+    <supports>Umamusume Ground Specialty</supports>
+
+    <description>
+        <p>
+            Your preference for running on dirt gives superior handling on unstable footing.
+            You can ignore difficult terrain when you take the Dash action.
+        </p>
+    </description>
+
+    <sheet>
+        <description>Your preference for running on dirt gives superior handling on unstable footing. You can ignore difficult terrain when you take the Dash action.</description>
+    </sheet>
+</element>
+
+
+<element name="Runner Umamusume" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_STRATEGY_RUNNER">
+    <supports>Umamusume Strategy</supports>
+
+    <description>
+        <p>
+            <span class="feature">Ability Score Increase.</span>
+            Your Dexterity score increases by 2.
+            <br/>
+            <span class="feature">Frontrunner.</span>
+            You can Dash as a bonus action.
+        </p>
+    </description>
+
+    <sheet>
+        <description>Frontrunner: You can Dash as a bonus action.</description>
+    </sheet>
+
+    <rules>
+        <stat name="dexterity" value="2"/>
+    </rules>
+</element>
+
+
+<element name="Leader Umamusume" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_STRATEGY_LEADER">
+    <supports>Umamusume Strategy</supports>
+
+    <description>
+        <p>
+        Leaders maintain a commanding position at the head of the pack, preventing others from passing them and preparing to overtake the very front runners in the last burst. They need both speed and strength to stay in the lead and control their position in the group.
+        </p>
+        <p>
+            <span class="feature">Ability Score Increase.</span>
+            Your Strength score increases by 1 and your Dexterity score increases by 1.
+            <br/>
+            <span class="feature">Head-to-Head.</span>
+            At the end of your turn, you can increase your initiative count by 2 if that would move you in front of at least one creature or your initiative count is 10 or less.
+        </p>
+    </description>
+
+    <sheet>
+        <description>Head-to-Head: At the end of your turn, you can increase your initiative count by 2 if that would move you in front of at least one creature or your initiative count is 10 or less.</description>
+    </sheet>
+
+    <rules>
+        <stat name="strength" value="1"/>
+        <stat name="dexterity" value="1"/>
+    </rules>
+</element>
+
+
+<element name="Betweener Umamusume" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_STRATEGY_BETWEENER">
+    <supports>Umamusume Strategy</supports>
+
+    <description>
+        <p>
+        Betweeners hang at the back of the main pack to conserve their strength before moving to take the lead in the final stretch. This role requires incredible strength to secure a position and maneuver through the other runners in front of you as you jockey for the lead.
+        </p>
+        <p>
+            <span class="feature">Ability Score Increase.</span>
+            Your Strength score increases by 2.
+            <br/>
+            <span class="feature">Position Swiper.</span>
+            You can Shove as a bonus action. The first time on your turn you do so after you move at least 20 feet straight toward the target, you do so with advantage.
+        </p>
+    </description>
+
+    <sheet>
+        <description>Position Swiper: You can Shove as a bonus action. The first time on your turn you do so after you move at least 20 feet straight toward the target, you do so with advantage.</description>
+    </sheet>
+
+    <rules>
+        <stat name="strength" value="2"/>
+    </rules>
+</element>
+
+
+<element name="Chaser Umamusume" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_STRATEGY_CHASER">
+    <supports>Umamusume Strategy</supports>
+
+    <description>
+        <p>
+        Chasers bring up the back of the runners, conserving their strength by staying out of the fight for position. Taking advantage of their staying power, they push ahead at full strength when most other opponents are running out of steam, bulling their tired rivals out of the way in their charge to the top.
+        </p>
+        <p>
+            <span class="feature">Ability Score Increase.</span>
+            Your Strength score increases by 1 and your Constitution score increases by 1.
+            <br/>
+            <span class="feature">On Standby.</span>
+            One time after rolling initiative, you can regain hit points equal to 1d10 + your Constitution modifier as a bonus action.
+        </p>
+    </description>
+
+    <sheet>
+        <description>On Standby: One time after rolling initiative, you can regain hit points equal to 1d10 + your Constitution modifier as a bonus action.</description>
+    </sheet>
+
+    <rules>
+        <stat name="strength" value="1"/>
+        <stat name="constitution" value="1"/>
+    </rules>
+</element>
+
+<!-- ========================================== -->
+<!--                   FEATS                    -->
+<!-- ========================================== -->
+
+<element name="Arc Maestro" type="Feat" source="Hombrewed" id="ID_FEAT_ARC_MAESTRO">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>Having mastered the graceful twist and turn, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Dexterity score by 1, to a maximum of 20.</li>
+            <li>Whenever you take the Dodge action, you gain temporary hit points equal to your proficiency bonus for the next 1 minute.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>Whenever you take the Dodge action, you gain temporary hit points equal to your proficiency bonus for the next 1 minute.</description>
+    </sheet>
+    <rules>
+        <stat name="dexterity" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="Archline Professor" type="Feat" source="Hombrewed" id="ID_FEAT_ARCHLINE_PROFESSOR">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>Having reached the peak of calculation at the turn of events, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Intelligence score by 1, to a maximum of 20.</li>
+            <li>At the end of each round of initiative, you can make an Intelligence (Investigation) check against the AC of a creature you can see. On a success, you can add your Intelligence modifier to the next attack roll you make against that creature before the end of your next turn.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>At the end of each round of initiative, you can make an Intelligence (Investigation) check against the AC of a creature you can see. On a success, you can add your Intelligence modifier to the next attack roll you make against that creature before the end of your next turn.</description>
+    </sheet>
+    <rules>
+        <stat name="intelligence" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="Big Eater" type="Feat" source="Hombrewed" id="ID_FEAT_BIG_EATER">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>Accustomed to eating well to prepare for a challenge, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Constitution score by 1, to a maximum of 20.</li>
+            <li>At the end of a short or long rest that involved eating a large meal, you gain temporary hit points equal to 1d10 plus your Constitution modifier. They last for up to 8 hours.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>At the end of a short or long rest that involved eating a large meal, you gain temporary hit points equal to 1d10 plus your Constitution modifier. They last for up to 8 hours.</description>
+    </sheet>
+    <rules>
+        <stat name="constitution" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="Breath of Fresh Air" type="Feat" source="Hombrewed" id="ID_FEAT_BREATH_OF_FRESH_AIR">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>Knowing just when to take a break and catch your breath, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Wisdom score by 1, to a maximum of 20.</li>
+            <li>At the end of any turn where you did not attack or cast a spell, you gain temporary hit points equal to your proficiency bonus until your next turn.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>At the end of any turn where you did not attack or cast a spell, you gain temporary hit points equal to your proficiency bonus until your next turn.</description>
+    </sheet>
+    <rules>
+        <stat name="wisdom" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="Concentration" type="Feat" source="Hombrewed" id="ID_FEAT_CONCENTRATION">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>Possessing unparalleled focus at the start of a match, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Intelligence score by 1, to a maximum of 20.</li>
+            <li>You have advantage on initiative rolls.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>You have advantage on initiative rolls.</description>
+    </sheet>
+    <rules>
+        <stat name="intelligence" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="Curve Sommelier" type="Feat" source="Hombrewed" id="ID_FEAT_CURVE_SOMMELIER">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>Able to turn the corner faster than any, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Wisdom score by 1, to a maximum of 20.</li>
+            <li>At the end of every round of initiative, you can increase your initiative count by 2.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>At the end of every round of initiative, you can increase your initiative count by 2.</description>
+    </sheet>
+    <rules>
+        <stat name="wisdom" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="Heart and Soul" type="Feat" source="Hombrewed" id="ID_FEAT_HEART_AND_SOUL">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>Able to commit your full spirit to the last burst, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Charisma score by 1, to a maximum of 20.</li>
+            <li>As a bonus action, you can gain temporary hit points for the next 1 minute equal to one of your hit dice + your Charisma modifier. As long as you have these temporary hit points, your speed increases by 15 feet and you can add your Charisma modifier to your attack rolls. When you lose these temporary hit points, you suffer one level of exhaustion until you finish a short or long rest.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>As a bonus action, you can gain temporary hit points for the next 1 minute equal to one of your hit dice + your Charisma modifier. As long as you have these temporary hit points, your speed increases by 15 feet and you can add your Charisma modifier to your attack rolls. When you lose these temporary hit points, you suffer one level of exhaustion until you finish a short or long rest.</description>
+    </sheet>
+    <rules>
+        <stat name="charisma" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="Killer Tune" type="Feat" source="Hombrewed" id="ID_FEAT_KILLER_TUNE">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>Possessing strength so sublime it becomes art, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Strength score by 1, to a maximum of 20.</li>
+            <li>Any time you would roll Charisma (Performance) or Strength (Athletics), you can roll the other instead. You can combine the bonuses of both once per long rest.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>Any time you would roll Charisma (Performance) or Strength (Athletics), you can roll the other instead. You can combine the bonuses of both once per long rest.</description>
+    </sheet>
+    <rules>
+        <stat name="strength" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="One Million Horsepower" type="Feat" source="Hombrewed" id="ID_FEAT_ONE_MILLION_HORSEPOWER">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>An unstoppable force, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Strength score by 1, to a maximum of 20.</li>
+            <li>You have advantage on Strength saves and checks against being knocked prone or moved.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>You have advantage on Strength saves and checks against being knocked prone or moved.</description>
+    </sheet>
+    <rules>
+        <stat name="strength" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="Sprint Turbo" type="Feat" source="Hombrewed" id="ID_FEAT_SPRINT_TURBO">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>Able to run faster in short bursts, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Dexterity score by 1, to a maximum of 20.</li>
+            <li>Whenever you take the Dash action, you can move an additional number of feet equal to 5 times your Dexterity modifier.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>Whenever you take the Dash action, you can move an additional number of feet equal to 5 times your Dexterity modifier.</description>
+    </sheet>
+    <rules>
+        <stat name="dexterity" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="Stamina Greed" type="Feat" source="Hombrewed" id="ID_FEAT_STAMINA_GREED">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>More desirous of vitality than any other, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Constitution score by 1, to a maximum of 20.</li>
+            <li>As a bonus action, you can have each creature within 5 feet of you make a Constitution saving throw (DC 8 + proficiency bonus + Con modifier). On a failure, a creature loses hit points equal to your proficiency bonus + Con modifier. You regain hit points equal to the total lost, up to a maximum of twice your character level (1/Rest).</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>As a bonus action, you can have each creature within 5 feet of you make a Constitution saving throw (DC 8 + proficiency bonus + Con modifier). On a failure, a creature loses hit points equal to your proficiency bonus + Con modifier. You regain hit points equal to the total lost, up to a maximum of twice your character level (1/Rest).</description>
+    </sheet>
+    <rules>
+        <stat name="constitution" value="1" upTo="20"/>
+    </rules>
+</element>
+
+<element name="Uma Mania" type="Feat" source="Hombrewed" id="ID_FEAT_UMA_MANIA">
+    <prerequisite>Umamusume</prerequisite>
+    <requirements>ID_RACE_UMAMUSUME</requirements>
+    <description>
+        <p>A fanatical lover of your compatriots, you gain the following benefits:</p>
+        <ul>
+            <li>Increase your Charisma score by 1, to a maximum of 20.</li>
+            <li>As a bonus action, if there are at least four friendly creatures within 10 feet of you, you can gain temporary hit points equal to your proficiency bonus + your Charisma modifier.</li>
+        </ul>
+    </description>
+    <sheet>
+        <description>As a bonus action, if there are at least four friendly creatures within 10 feet of you, you can gain temporary hit points equal to your proficiency bonus + your Charisma modifier.</description>
+    </sheet>
+    <rules>
+        <stat name="charisma" value="1" upTo="20"/>
+    </rules>
+</element>
+
+</elements>
