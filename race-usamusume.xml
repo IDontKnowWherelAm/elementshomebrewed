@@ -128,7 +128,7 @@ You can speak, read, and write Common and one extra language of your choice.
 </element>
 
 
-<element name="Turf" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_GROUND_SPECIALTY_TURF">
+<element name="Turf" type="Racial Trait" source="Homebrewed" id="ID_UMAMUSUME_GROUND_SPECIALTY_TURF">
     <supports>Umamusume Ground Specialty</supports>
 
     <description>
@@ -143,7 +143,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </sheet>
 </element>
 
-<element name="Dirt" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_GROUND_SPECIALTY_DIRT">
+<element name="Dirt" type="Racial Trait" source="Homebrewed" id="ID_UMAMUSUME_GROUND_SPECIALTY_DIRT">
     <supports>Umamusume Ground Specialty</supports>
 
     <description>
@@ -159,7 +159,7 @@ You can speak, read, and write Common and one extra language of your choice.
 </element>
 
 
-<element name="Runner Umamusume" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_STRATEGY_RUNNER">
+<element name="Runner Umamusume" type="Racial Trait" source="Homebrewed" id="ID_UMAMUSUME_STRATEGY_RUNNER">
     <supports>Umamusume Strategy</supports>
 
     <description>
@@ -182,7 +182,7 @@ You can speak, read, and write Common and one extra language of your choice.
 </element>
 
 
-<element name="Leader Umamusume" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_STRATEGY_LEADER">
+<element name="Leader Umamusume" type="Racial Trait" source="Homebrewed" id="ID_UMAMUSUME_STRATEGY_LEADER">
     <supports>Umamusume Strategy</supports>
 
     <description>
@@ -209,7 +209,7 @@ You can speak, read, and write Common and one extra language of your choice.
 </element>
 
 
-<element name="Betweener Umamusume" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_STRATEGY_BETWEENER">
+<element name="Betweener Umamusume" type="Racial Trait" source="Homebrewed" id="ID_UMAMUSUME_STRATEGY_BETWEENER">
     <supports>Umamusume Strategy</supports>
 
     <description>
@@ -235,7 +235,7 @@ You can speak, read, and write Common and one extra language of your choice.
 </element>
 
 
-<element name="Chaser Umamusume" type="Racial Trait" source="Hombrewed" id="ID_UMAMUSUME_STRATEGY_CHASER">
+<element name="Chaser Umamusume" type="Racial Trait" source="Homebrewed" id="ID_UMAMUSUME_STRATEGY_CHASER">
     <supports>Umamusume Strategy</supports>
 
     <description>
@@ -265,7 +265,7 @@ You can speak, read, and write Common and one extra language of your choice.
 <!--                   FEATS                    -->
 <!-- ========================================== -->
 
-<element name="Arc Maestro" type="Feat" source="Hombrewed" id="ID_FEAT_ARC_MAESTRO">
+<element name="Arc Maestro" type="Feat" source="Homebrewed" id="ID_FEAT_ARC_MAESTRO">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -283,7 +283,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="Archline Professor" type="Feat" source="Hombrewed" id="ID_FEAT_ARCHLINE_PROFESSOR">
+<element name="Archline Professor" type="Feat" source="Homebrewed" id="ID_FEAT_ARCHLINE_PROFESSOR">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -301,7 +301,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="Big Eater" type="Feat" source="Hombrewed" id="ID_FEAT_BIG_EATER">
+<element name="Big Eater" type="Feat" source="Homebrewed" id="ID_FEAT_BIG_EATER">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -319,7 +319,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="Breath of Fresh Air" type="Feat" source="Hombrewed" id="ID_FEAT_BREATH_OF_FRESH_AIR">
+<element name="Breath of Fresh Air" type="Feat" source="Homebrewed" id="ID_FEAT_BREATH_OF_FRESH_AIR">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -337,7 +337,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="Concentration" type="Feat" source="Hombrewed" id="ID_FEAT_CONCENTRATION">
+<element name="Concentration" type="Feat" source="Homebrewed" id="ID_FEAT_CONCENTRATION">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -355,7 +355,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="Curve Sommelier" type="Feat" source="Hombrewed" id="ID_FEAT_CURVE_SOMMELIER">
+<element name="Curve Sommelier" type="Feat" source="Homebrewed" id="ID_FEAT_CURVE_SOMMELIER">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -373,7 +373,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="Heart and Soul" type="Feat" source="Hombrewed" id="ID_FEAT_HEART_AND_SOUL">
+<element name="Heart and Soul" type="Feat" source="Homebrewed" id="ID_FEAT_HEART_AND_SOUL">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -391,7 +391,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="Killer Tune" type="Feat" source="Hombrewed" id="ID_FEAT_KILLER_TUNE">
+<element name="Killer Tune" type="Feat" source="Homebrewed" id="ID_FEAT_KILLER_TUNE">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -409,7 +409,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="One Million Horsepower" type="Feat" source="Hombrewed" id="ID_FEAT_ONE_MILLION_HORSEPOWER">
+<element name="One Million Horsepower" type="Feat" source="Homebrewed" id="ID_FEAT_ONE_MILLION_HORSEPOWER">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -427,7 +427,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="Sprint Turbo" type="Feat" source="Hombrewed" id="ID_FEAT_SPRINT_TURBO">
+<element name="Sprint Turbo" type="Feat" source="Homebrewed" id="ID_FEAT_SPRINT_TURBO">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -445,7 +445,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="Stamina Greed" type="Feat" source="Hombrewed" id="ID_FEAT_STAMINA_GREED">
+<element name="Stamina Greed" type="Feat" source="Homebrewed" id="ID_FEAT_STAMINA_GREED">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
@@ -463,7 +463,7 @@ You can speak, read, and write Common and one extra language of your choice.
     </rules>
 </element>
 
-<element name="Uma Mania" type="Feat" source="Hombrewed" id="ID_FEAT_UMA_MANIA">
+<element name="Uma Mania" type="Feat" source="Homebrewed" id="ID_FEAT_UMA_MANIA">
     <prerequisite>Umamusume</prerequisite>
     <requirements>ID_RACE_UMAMUSUME</requirements>
     <description>
