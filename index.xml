@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/aurorabuilder/elements/master/schema/index.xsd">
+    <info>
+        <name>Homebrewed</name>
+        <description>Homebrewed content from numerous sources, including races, items, feats, etc.</description>
+        <author>NumerousSources</author>
+    </info>
+    <files>
+        <file name="race-usamusume.xml" url="https://raw.githubusercontent.com/IDontKnowWherelAm/elementshomebrewed/master/race-usamusume.xml" />
+    </files>
+</index>
