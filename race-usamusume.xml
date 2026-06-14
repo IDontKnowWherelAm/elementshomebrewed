@@ -2,9 +2,9 @@
 <info>
 <name>Umamusume</name>
 <description/>
-<author url="https://www.scribd.com/document/894769360/wwkn59">SCIBD</author>
+<author url="https://github.com/IDontKnowWherelAm/elementshomebrewed">Homebrewed</author>
 <update version="0.2.7">
-<file name="race-usamusume.xml" url="https://www.scribd.com/document/894769360/wwkn59"/>
+<file name="race-usamusume.xml" url="https://raw.githubusercontent.com/IDontKnowWherelAm/elementshomebrewed/master/race-usamusume.xml"/>
 </update>
 </info>
 <element name="Umamusume" type="Race" source="Homebrewed" id="ID_RACE_UMAMUSUME">
