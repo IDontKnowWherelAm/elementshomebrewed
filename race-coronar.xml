@@ -1,1 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Coronar</name>
+        <description>The Coronar race, specifically based on the Royal Antelope.</description>
+        <author>Homebrewed</author>
+        <update version="1.0.0">
+            <file name="race-coronar.xml" url="https://raw.githubusercontent.com/IDontKnowWherelAm/elementshomebrewed/master/race-coronar.xml"/>
+        </update>
+    </info>
 
+    <element name="Corath" type="Language" id="ID_HOMEBREW_LANGUAGE_CORATH" source="Homebrewed">
+        <description>
+            <p>The native language of the Coronar people. It is primarily spoken among their forest tribes, though other creatures can learn it if they have the opportunity.</p>
+        </description>
+    </element>
+
+    <element name="Coronar" type="Race" id="ID_HOMEBREW_RACE_CORONAR" source="Homebrewed">
+        <description>
+            <p>
+            Living deep in the forests, Coronar are few and far between. They tend to mask themselves in the deep undergrowth, rarely coming out of their own societies. The few that do venture out of their tribes do so out of exile, natural disasters that leave no other choice, or if not in an act of fear, in an act of defiance. It is extremely rare for Coronar to leave their tribes of their own free will. However, there are records of it happening, although they tend to have a reason to leave, such as a dream or prophecy giving them motivation and courage to leave their homes of safety and comfort.
+            </p>
+            <p class="indent">
+            Coronar's appearance varies in fur color and on rare occasions they can be found with horns similar to that of antelope. They most often are seen with a nice hazel or brown coat with some whiting near their stomachs and neck.
+            </p>
+            
+            <h4>GENERAL OVERVIEW</h4>
+            <p>
+            The Coronar race, reflecting the  nature of the Royal Antelope, are naturally agile and constantly alert to changes in their forest surroundings and their companions.
+            </p>
+
+            <h4>CORONAR TRAITS</h4>
+            <p>
+            <span class="feature">Ability Score Increase.</span>
+            Your Dexterity score increases by 2.
+            <br/>
+            <span class="feature">Creature Type.</span>
+            You are a Humanoid.
+            <br/>
+            <span class="feature">Size.</span>
+            You are Small.
+            <br/>
+            <span class="feature">Speed.</span>
+            Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.
+            <br/>
+            <span class="feature">Hooves.</span>
+            Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+            <br/>
+            <span class="feature">Darkvision.</span>
+            You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.
+            <br/>
+            <span class="feature">Herd Instinct.</span>
+            You gain proficiency in one of the following skills: Insight, Perception, or Survival. Additionally, when you take the Help action, the creature you assist can add a bonus equal to your proficiency bonus to the roll.
+            <br/>
+            <span class="feature">Cautious and Alert.</span>
+            Opportunity attacks and sneak attacks made against you are made with disadvantage.
+            <br/>
+            <span class="feature">Brushwood Camouflage.</span>
+            You have proficiency in the Stealth skill. While in natural terrain containing foliage, you can attempt to Hide even when only lightly obscured.
+            <br/>
+            <span class="feature">Languages.</span>
+            You can speak, read, and write Common and Corath. You also speak one extra language of your choice from the following list, depending on where your tribe was/is located:
+            <ul>
+                <li>Grung</li>
+                <li>Sylvan</li>
+                <li>Kraul</li>
+                <li>Elvish</li>
+                <li>Gnomish</li>
+                <li>Common Sign Language</li>
+            </ul>
+            </p>
+        </description>
+
+        <sheet display="false"/>
+
+        <rules>
+            <stat name="dexterity" value="2"/>
+
+            <grant type="Size" id="ID_SIZE_SMALL"/>
+            <stat name="innate speed" value="30" bonus="base"/>
+            <stat name="innate speed:climb" value="innate speed" bonus="base"/>
+            
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH"/>
+
+            <select type="Proficiency" name="Herd Instinct Skill" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL"/>
+            
+            <grant type="Language" id="ID_LANGUAGE_COMMON"/>
+            <grant type="Language" id="ID_HOMEBREW_LANGUAGE_CORATH"/>
+            
+            <select type="Language" name="Coronar Tribal Language" supports="ID_OGA_LANGUAGE_GRUNG|ID_LANGUAGE_SYLVAN|ID_GGTR_LANGUAGE_KRAUL|ID_LANGUAGE_ELVISH|ID_LANGUAGE_GNOMISH|ID_WOTC_PHB24_LANGUAGE_COMMON_SIGN"/>
+
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_CORONAR_HOOVES"/>
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_CORONAR_DARKVISION"/>
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_CORONAR_HERD_INSTINCT"/>
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_CORONAR_CAUTIOUS_AND_ALERT"/>
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_CORONAR_BRUSHWOOD_CAMOUFLAGE"/>
+        </rules>
+    </element>
+
+    <element name="Hooves" type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_CORONAR_HOOVES" source="Homebrewed">
+        <description>
+            <p>Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+        </description>
+        <sheet>
+            <description>Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</description>
+        </sheet>
+    </element>
+
+    <element name="Darkvision" type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_CORONAR_DARKVISION" source="Homebrewed">
+        <description>
+            <p>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+        </description>
+        <sheet>
+            <description>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</description>
+        </sheet>
+    </element>
+
+    <element name="Herd Instinct" type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_CORONAR_HERD_INSTINCT" source="Homebrewed">
+        <description>
+            <p>Additionally, when you take the Help action, the creature you assist can add a bonus equal to your proficiency bonus to the roll.</p>
+        </description>
+        <sheet>
+            <description>When you take the Help action, the creature you assist can add a bonus equal to your proficiency bonus to the roll.</description>
+        </sheet>
+    </element>
+
+    <element name="Cautious and Alert" type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_CORONAR_CAUTIOUS_AND_ALERT" source="Homebrewed">
+        <description>
+            <p>Opportunity attacks and sneak attacks made against you are made with disadvantage.</p>
+        </description>
+        <sheet>
+            <description>Opportunity attacks and sneak attacks made against you are made with disadvantage.</description>
+        </sheet>
+    </element>
+
+    <element name="Brushwood Camouflage" type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_CORONAR_BRUSHWOOD_CAMOUFLAGE" source="Homebrewed">
+        <description>
+            <p>While in natural terrain containing foliage, you can attempt to Hide even when only lightly obscured.</p>
+        </description>
+        <sheet>
+            <description>While in natural terrain containing foliage, you can attempt to Hide even when only lightly obscured.</description>
+        </sheet>
+    </element>
+
+</elements>
