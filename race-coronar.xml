@@ -4,7 +4,7 @@
         <name>Coronar</name>
         <description>The Coronar race, specifically based on the Royal Antelope.</description>
         <author>Homebrewed</author>
-        <update version="1.0.1">
+        <update version="1.0.2">
             <file name="race-coronar.xml" url="https://raw.githubusercontent.com/IDontKnowWherelAm/elementshomebrewed/master/race-coronar.xml"/>
         </update>
     </info>
@@ -14,6 +14,7 @@
             <p>The native language of the Coronar people. It is primarily spoken among their forest tribes, though other creatures can learn it if they have the opportunity.</p>
         </description>
         <set name="category">Language</set>
+        <set name="languages">Corath</set>
     </element>
 
     <element name="Coronar" type="Race" id="ID_HOMEBREW_RACE_CORONAR" source="Homebrewed">
