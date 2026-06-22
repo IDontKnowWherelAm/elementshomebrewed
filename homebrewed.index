@@ -4,12 +4,13 @@
 		<name>Homebrewed</name>
 		<description>Custom homebrew content including races items and feats</description>
 		<author url="https://github.com/IDontKnowWherelAm/elementshomebrewed">NumerousSources</author>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="homebrewed.index" url="https://raw.githubusercontent.com/IDontKnowWherelAm/elementshomebrewed/master/homebrewed.index" />
 		</update>
 	</info>
 	<files>
 		<file name="race-usamusume.xml" url="https://raw.githubusercontent.com/IDontKnowWherelAm/elementshomebrewed/master/race-usamusume.xml" />
 		<file name="race-coronar.xml" url="https://raw.githubusercontent.com/IDontKnowWherelAm/elementshomebrewed/master/race-coronar.xml" />
+		<file name="race-boykisser.xml" url="https://raw.githubusercontent.com/IDontKnowWherelAm/elementshomebrewed/master/race-boykisser.xml" />
 	</files>
 </index>
