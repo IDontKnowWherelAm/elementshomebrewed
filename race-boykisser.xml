@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Boy Kisser</name>
+        <description>"You like kissing boys, don't you.", Boy Kisser</description>
+        <author url="https://github.com/IDontKnowWherelAm/elementshomebrewed">Wizards of the Coast</author>
+        <update version="1.0.4">
+            <file name="race-boykisser.xml" url="https://raw.githubusercontent.com/IDontKnowWherelAm/elementshomebrewed/master/race-boykisser.xml" />
+        </update>
+    </info>
+    
+    <element name="Boy Kisser" type="Race" source="DnD5e Wiki" id="ID_WOTC_PHB24_RACE_BOYKISSER">
+        <description>
+            <p>The Boy Kisser has white fur with dog/cat like features. They are humanoid but have animal like traits. They are very fluffy. They also are diverse in small details such as eye color, size, weight, and height.</p>
+            <p class="indent">A species we know little about as they are not known for keeping records. All we know is that they are a newer species who have a unique animalistic traits.</p>
+            <h5>HUMAN TRAITS</h5>
+            <ul class="unstyled" style="text-indent:-1em; margin-left:1em; margin-bottom:5px">
+                <li><strong>Creature Type:</strong> Humanoid</li>
+                <li><strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species</li>
+                <li><strong>Speed:</strong> Your base walking speed is 30 feet. You can run on all fours at a speed of 50ft.</li>
+            </ul>
+            <p>As a Boy Kisser, you have these special traits.</p>
+            <p class="indent"><strong><em>Boy Kissing Pheromone.</em></strong> You have a pheromone that causes the male species that effects their sexuality. When a boy is around you then they are more comfortable with the idea of kissing you. The longer your around the more comfortable they get to be with you. You eventually get advantage on Persuasion rolls with that boy (DM chooses when it is used).</p>
+            <p class="indent"><strong><em>Thick Fur.</em></strong> Your fur is so thick that people feel comfortable hugging you. You also resistant to cold damage.</p> 
+            <p class="indent"><strong><em>Part animal.</em></strong> You can get on all fours and run at a increased speed(+10). You can speak, read, and write Common and one other language of your choice.</p> 
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement Option (Boy Kisser)" supports="Custom Ability Score Improvement Option" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+            <select type="Racial Trait" name="Size (Boy Kisser)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+
+            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <select type="Language" name="Language (Boy Kisser)" supports="Standard||Exotic" number="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <select type="Language" name="Customized Language (Boy Kisser)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" number="2" />
+
+            <grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_BOYKISSER_BOYKISSINGPHEREMONE" />
+            <grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_BOYKISSER_THICKFUR" />
+            <grant type="Racial Trait" id="ID_WOTC_PHB24_RACIAL_TRAIT_BOYKISSER_PARTANIMAL" />
+        </rules>
+    </element>
+
+    <element name="Boy Kisser Pheremone" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_BOYKISSER_BOYKISSINGPHEREMONE">
+        <description>
+            <p>You have a pheromone that causes the male species that effects their sexuality. When a boy is around you then they are more comfortable with the idea of kissing you. The longer your around the more comfortable they get to be with you. You eventually get advantage on Persuasion rolls with that boy (DM chooses when it is used).</p> 
+        </description>
+        <sheet>
+            <description>You have a pheromone that causes the male species that effects their sexuality. When a boy is around you then they are more comfortable with the idea of kissing you. The longer your around the more comfortable they get to be with you. You eventually get advantage on Persuasion rolls with that boy (DM chooses when it is used).</description>
+        </sheet>
+    </element>
+
+    <element name="Thick Fur" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_BOYKISSER_THICKFUR">
+        <description>
+            <p>Your fur is so thick that people feel comfortable hugging you. You also resistant to cold damage.</p> 
+        </description>
+        <sheet>
+            <description>Your fur is so thick that people feel comfortable hugging you. You also resistant to cold damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Part Animal" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_BOYKISSER_PARTANIMAL">
+        <description>
+            <p>You can get on all fours and run at an increased speed (+10).</p> 
+        </description>
+        <sheet>
+            <description>You can get on all fours and run at an increased speed (+10).</description>
+        </sheet>
+    </element>
+
+</elements>
