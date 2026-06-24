@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Cosmic Marking</name>
+        <description>The Cosmic Marking is a wondrous item (artifact) that is embeded on the bearer's skin and/or fur. It is only seen on those who are blessed by the stars to follow the fate of becoming a constellation.</description>
+        <author url="https://github.com/IDontKnowWherelAm/elementshomebrewed">Homebrew</author>
+        <update version="1.0.6">
+            <file name="item-cosmicmarking.xml" url="https://raw.githubusercontent.com/IDontKnowWherelAm/elementshomebrewed/master/item-cosmicmarking.xml"/>
+        </update>
+    </info>
+
+    <element name="Cosmic Marking" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_COSMIC_MARKING">
+        <description>
+            <p>Upon touch, this fragment of a fallen star immediately seeps into the bearer's body, creating a star marking on their neck. All those who bear the Cosmic Marking are blessed by the stars and are fated to become constellations, demigods of the stars and cosmos. It can typically only be obtained when the stars have guided the soon to be bearer to the Clearing of the Cosmos. It functions as a wondrous item (artifact) that scales with the bearer's growth.</p>
+            
+            <h5>Cosmic Marking Abilities</h5>
+            <p>The bearer of the Cosmic Marking may teleport to the Clearing of the Cosmos a number of times equal to their Proficiency Bonus. All expended uses are restored upon completing a Long Rest.</p>
+            <p>Returning to the location from which the bearer originally teleported does not expend an additional use of this ability.</p>
+            <p>The bearer may bring any number of willing creatures with them when teleporting to the clearing. However, if initiative is being tracked, only the bearer may be transported.</p>
+            <p>The stars do not favor cowardice. If the bearer attempts to enter the clearing while initiative is being tracked, they must first succeed on a DC 14 Wisdom saving throw. On a failure, the stars deny passage and no use of this ability is expended.</p>
+            <p>Teleporting to the clearing requires an action.</p>
+            <p>As the bearer becomes more attuned to the stars, the marking slowly grows. This change serves as a visual of their connection to the stars and foreshadows their eventual fate.</p>
+            <p>This provides no mechanical benefits. It is only visual/cosmetic.</p>
+            <ul>
+                <li>The marking begins as a single star upon the neck.</li>
+                <li>The marking expands into a constellation stretching across the shoulders.</li>
+                <li>Upon unlocking the final attribute of the Clearing of the Cosmos (excluding the final story progression), glowing patterns of stars and constellations spread across the bearer's entire body.</li>
+            </ul>
+            <p><strong>Passive Ability: Light of Courage:</strong> You have advantage on saving throws against being frightened, for the stars give you strength and courage alike.</p>
+            
+            <h5>Clearing of the Cosmos Properties</h5>
+            <p>The Clearing of the Cosmos exists as an absolute sanctuary. Creatures may only enter it if they have been guided there by the stars, possess the Cosmic Marking, or are brought there by a bearer of the marking.</p>
+            <p>Items left within the clearing remain where they are placed and may be stored indefinitely. However, stored items must still be physically retrieved from the clearing and cannot be summoned remotely.</p>
+            <p>Combat and magic function normally within the clearing. However, the stars may intervene to prevent catastrophic damage to the sanctuary. This includes, but is not limited to, forest fires, flooding, lightning strikes, or other events that would permanently alter or destroy the clearing.</p>
+            <p>As the bearer's connection to the stars deepens, additional properties of the clearing reveal themselves. While level ranges are provided below, these features may instead be unlocked through story progression at the DM's discretion.</p>
+            
+            <h5>Clearing Upgrades</h5>
+            <p><strong>Level -- (Base Effect):</strong> Attunement to the Cosmic Marking grants access to the Clearing of the Cosmos. The clearing is vast, empty, and completely safe.</p>
+            <p><strong>Lv. 3-5: River of Stars:</strong> A freshwater river begins to flow endlessly through the clearing. The river provides a safe and reliable source of drinking water and may be used to refill waterskins.</p>
+            <p><strong>Lv. 8-10: Orchard of the Cosmos:</strong> Trees begin to take root and sprout, giving a source of endless fruit that never rot. These fruits can be used as a substitute for rations, however taking them out of the clearing results in the fruit rotting immediately.</p>
+            <p><strong>Lv. 13: Constellation Spirits:</strong> As the clearing continues to grow, creatures of starlight begin to appear within it. These creatures are harmless and rarely interact with visitors, though they seem unusually fond of the bearer. Most choose to remain within the safety of the clearing.</p>
+            
+            <p>After completing a Long Rest within the Clearing of the Cosmos, roll a d4 to determine which constellation spirit has chosen to accompany the bearer for the day. The bearer may communicate freely with the spirit and ask for its assistance. Each spirit may provide its unique form of guidance once per Long Rest.</p>
+            <p>Once a spirit has provided its assistance, or upon the bearer's next Long Rest, it returns to the Clearing of the Cosmos, preferring the safety and sustainability of the clearing over the dangers of the outside world.</p>
+            
+            <h5>D4 Spirits</h5>
+            <p><strong>1. Stag:</strong> The stag possesses an uncanny sense of direction. Once per day, it may identify the general direction of an unknown or known location, landmark, or destination. This includes, but is not limited to, settlements, dungeons, battlegrounds, etc.</p>
+            <p><strong>2. Wolf:</strong> The wolf excels at finding things using its great sense of smell.. Once per day, it may provide insight into the location of a lost object, hidden passage, or creature's trail.</p>
+            <p><strong>3. Owl:</strong> The owl sees what others overlook. Once per day, it may point out a clue, detail, or anomaly that would otherwise be easy to miss.</p>
+            <p><strong>4. Fox:</strong> The fox possesses a keen instinct for deception. Once per day, it may provide insight into a creature's intentions, warning the bearer if someone is concealing information, acting dishonestly, or harboring suspicious motives.</p>
+            
+            <p><strong>Lv. -- (Final Story Progression):</strong> At the DM's discretion, and only after all other properties of the clearing have been unlocked, the bearer's connection to the stars may finally reach its highest form.</p>
+            <p>You and the stars become one. For the first time, you can truly hear them. Their voices, their thoughts, and their feelings.</p>
+            <p>A path upward emerges within the clearing. It may take the form of a staircase, an escalator, or any other means of ascension deemed appropriate by the DM.</p>
+            <p>Upon ascending this path, the bearer sheds their mortal form and becomes a living constellation. A demigod. They are destined to guide, aid, and watch over others, as the stars once guided and watched over them.</p>
+        </description>
+        <setters>
+            <set name="keywords">teleport, clearing, cosmos, sanctuary, spirit, star, marking, advantage, frightened, save</set>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Artifact</set>
+            <set name="attunement">true</set>
+            <set name="slot">gift</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+        </setters>
+    </element>
+</elements>
